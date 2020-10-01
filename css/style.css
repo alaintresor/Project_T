@@ -29,6 +29,12 @@
 /*----------------------------------------*/
 /* Template default CSS
 /*----------------------------------------*/
+.div_header{
+	position: relative;
+        background-color: #fff;
+        box-shadow: 0 1px 2px 0 rgba(0,0,0,.14);
+        
+}
 
 html,
 body {
@@ -36,6 +42,7 @@ body {
 	font-family: "Cairo", sans-serif;
 	-webkit-font-smoothing: antialiased;
 	font-smoothing: antialiased;
+	background-color: #f8f8f8
 }
 
 h1,
@@ -639,11 +646,12 @@ ol {
 }
 
 .hero__search__form {
-	width: 610px;
+	width: 580px;
 	height: 50px;
-	border: 1px solid #ebebeb;
 	position: relative;
 	float: left;
+	border:1px solid blue;
+	border-radius:2px
 }
 
 .hero__search__form form .hero__search__categories {
@@ -675,7 +683,7 @@ ol {
 }
 
 .hero__search__form form input {
-	width: 70%;
+	width: 100%;
 	border: none;
 	height: 48px;
 	font-size: 16px;
